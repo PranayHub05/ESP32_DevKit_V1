@@ -6,14 +6,14 @@ This repository is a consolidated record of the work done with the **classic ESP
 
 The purpose of this archive is to preserve the projects as individual Arduino sketches while also documenting:
 
-- what each project does;
-- the hardware used;
-- wiring and pin assignments;
-- software/libraries involved;
-- how the program works;
-- how the projects evolved;
-- what was actually tested;
-- what was experimental;
+- what each project does
+- the hardware used
+- wiring and pin assignments
+- software/libraries involved
+- how the program works
+- how the projects evolved
+- what was actually tested
+- what was experimental
 - and which work belongs to the ESP32-S3 rather than the classic ESP32.
 
 This README is deliberately detailed so that the repository can be used as a learning log as well as a future reference.
@@ -39,7 +39,7 @@ That combination enabled the car, WebServer/WebSocket experiments, Internet API 
 
 # 3. Project Map
 
-## 01 — Wi-Fi Controlled Mini Car
+## 01 Wi-Fi Controlled Mini Car
 
 ### Status
 **TESTED / DEVELOPED**
@@ -107,7 +107,7 @@ This project introduced several important ESP32 concepts:
 
 ---
 
-# 4. Project 02 — Single Motor WebServer / PWM Experiment
+# 4. Project 02 Single Motor WebServer / PWM Experiment
 
 ### Status
 **TESTED**
@@ -153,7 +153,7 @@ This became especially useful during the later two-motor car work where motor di
 
 ---
 
-# 5. Project 03 — DHT11 + MQ135 Sensor WebSocket JSON
+# 5. Project 03 DHT11 + MQ135 Sensor WebSocket JSON
 
 ### Status
 **DEVELOPED / TESTED**
@@ -241,7 +241,7 @@ That is a significant step up from a basic sensor sketch.
 
 ---
 
-# 6. Project 04 — OpenWeather + Local Sensors + WebSocket
+# 6. Project 04 OpenWeather + Local Sensors + WebSocket
 
 ### Status
 **DEVELOPED / TESTED ARCHITECTURE**
@@ -330,7 +330,7 @@ This makes the data easier for a phone/tablet application to consume.
 
 ---
 
-# 7. Project 05 — Bluetooth Classic A2DP Audio
+# 7. Project 05 Bluetooth Classic A2DP Audio
 
 ### Status
 **TESTED / WORKING**
@@ -382,7 +382,7 @@ The Bluetooth speaker playback was confirmed to work well with the classic ESP32
 
 ---
 
-# 8. Project 06 — ESP32 DevKit V1 as USB-UART Programmer for ESP32-CAM
+# 8. Project 06 ESP32 DevKit V1 as USB-UART Programmer for ESP32-CAM
 
 ### Status
 **UTILITY / TESTED**
@@ -428,7 +428,7 @@ Therefore it can be used as a convenient bridge when a camera board does not hav
 
 ---
 
-# 9. Project 07 — I²S Audio → Bluetooth A2DP Bridge
+# 9. Project 07 I²S Audio → Bluetooth A2DP Bridge
 
 ### Status
 **EXPERIMENTAL / NOT CONFIRMED AS A FINISHED PROJECT**
@@ -478,27 +478,6 @@ For example, a source configured for 24 kHz cannot simply be assumed to match an
 ### Status
 
 The architecture was discussed, but the exact end-to-end S3 → I²S → DevKit → A2DP implementation was not established as a finished tested project.
-
----
-
-# 10. Projects Explicitly Excluded
-
-Some of your recent hardware work belongs to the **ESP32-S3** rather than the classic DevKit V1.
-
-Those projects are intentionally not represented as DevKit V1 projects here.
-
-Examples include:
-
-- ESP32-S3 + SH1106 OLED;
-- ESP32-S3 + DHT11;
-- ESP32-S3 + MQ135;
-- ESP32-S3 OpenWeather integration;
-- ESP32-S3 WebSocket sensor system;
-- ESP32-S3 TinyML / edge-AI work;
-- ESP32-S3 FreeRTOS work;
-- ESP32-S3 microphone experiments where the S3 was the actual target board.
-
-Keeping these separate prevents the repository from becoming misleading.
 
 ---
 
