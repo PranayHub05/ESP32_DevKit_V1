@@ -1,4 +1,4 @@
-# ESP32 DevKit V1 / ESP32-WROOM-32 — Complete Project README
+# ESP32 DevKit V1 / ESP32-WROOM-32 - Complete Project README
 
 ## 1. Overview
 
